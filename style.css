@@ -44,6 +44,7 @@ img {
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   grid-gap: 12px;
   padding: 12px;
+  min-height: 520px;
 }
 .product-box {
   text-align: center;
@@ -63,11 +64,15 @@ img {
   display: -webkit-box;
   -webkit-line-clamp: 3;
 }
-.product-box header {
+.product-title {
   background-color: darkcyan;
   color: white;
   border-radius: 12px 12px 0 0;
-  padding:6px;
+  padding: 6px;
+}
+.product-title h2 {
+  font-size: 1em;
+  font-weight: 600;
 }
 .product-box footer {
   padding: 6px;
@@ -93,6 +98,16 @@ img {
 }
 
 @media screen and (max-width: 500px) {
+  .product-box {
+    grid-template-rows: 1fr 4.5fr 0.5fr;
+  }
+  .product-title h2 {
+    font-size: 1.5rem;
+    line-height: 4rem;
+  }
+  .max-line-title {
+    -webkit-line-clamp: 1;
+  }
 }
 @media screen and (max-width: 991px) {
 }
