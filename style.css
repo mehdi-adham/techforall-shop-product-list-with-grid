@@ -32,7 +32,8 @@ img {
 
 .sr-only {
   position: absolute;
-  left: -10000px;
+  /* rtl directory */
+  right: -10000px;
   top: auto;
   height: 1px;
   width: 1px;
@@ -66,7 +67,7 @@ img {
   background-color: darkcyan;
   color: white;
   border-radius: 12px 12px 0 0;
-  padding: 6px;
+  padding:6px;
 }
 .product-box footer {
   padding: 6px;
