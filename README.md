@@ -1,4 +1,4 @@
-![](./screenshot.jpg)
+![](images/screenshot.jpg)
 
 # techforall-shop-product-list-with-grid
 Product list page with grid in techforall.ir
