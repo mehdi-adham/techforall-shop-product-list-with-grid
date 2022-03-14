@@ -6,4 +6,4 @@ Product list page with grid in techforall.ir
 
 ### Links
 
-- Live Site URL: [live site](https://mehdi-adham.github.io/techforall-shop-product-list-with-grid/)
+- Live Site URL: [On github](https://mehdi-adham.github.io/techforall-shop-product-list-with-grid/), [On techforall](https://techforall.ir/store/)
